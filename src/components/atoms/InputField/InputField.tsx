@@ -9,7 +9,7 @@ type InputFieldProps = {
   icon?: React.ReactNode;
 };
 
-const InputField = ({
+export const InputField = ({
   label,
   type = 'text',
   name,
@@ -45,5 +45,3 @@ const InputField = ({
     </div>
   );
 };
-
-export default InputField;

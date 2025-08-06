@@ -10,14 +10,14 @@ type ButtonProps = {
   disabled?: boolean;
 };
 
-export default function Button({
+export const Button = ({
   type = 'button',
   children,
   onClick,
   variant = 'primary',
   className = '',
   disabled = false,
-}: ButtonProps) {
+}: ButtonProps) => {
   const baseStyles =
     'w-full py-2 rounded font-medium transition-colors duration-200';
   const variants: Record<string, string> = {
@@ -39,4 +39,4 @@ export default function Button({
       {children}
     </button>
   );
-}
+};
