@@ -18,7 +18,7 @@ A fully-configured modern frontend boilerplate using React, TypeScript, Vite, pn
 ### ✅ Clone and start the app
 
 ```
-git clone git@github.com:shubham43MP/fe-boilerplate.git
+git clone
 ```
 
 ```bash
